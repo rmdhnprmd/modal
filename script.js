@@ -20,3 +20,11 @@ for (let i = 0; i < btnsOpenModal.length; i++)
 
 btnCloseModal.onclick = () => modalClose();
 overlay.onclick = () => modalClose();
+
+document.onkeydown = e => {
+  // console.log(e.key);
+
+  if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+    modalClose();
+  }
+};
