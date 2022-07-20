@@ -1,0 +1,13 @@
+'use strict';
+
+const modal = document.querySelector('.modal');
+const overlay = document.querySelector('.overlay');
+const btnsOpenModal = document.querySelectorAll('.show-modal');
+const btnCloseModal = document.querySelector('.close-modal');
+
+console.log(btnsOpenModal);
+
+for (let i = 0; i < btnsOpenModal.length; i++)
+  btnsOpenModal[i].onclick = () => {
+    console.log('Button clicked');
+  };
