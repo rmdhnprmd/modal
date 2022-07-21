@@ -83,3 +83,15 @@ p {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 44%;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #eee;
+}
